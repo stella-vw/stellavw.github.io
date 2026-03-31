@@ -1,0 +1,29 @@
+body {
+  background-color: #DCC4F2;
+  padding: 18px;
+  margin: auto;
+  max-width: 600px;
+  font-size: 14pt;
+  font-family: Garamond, serif ;
+}
+
+nav {
+    display: flex;
+    text-align: left;
+    gap: 30pt;
+}
+
+nav ul {
+    text-decoration: underline;
+}
+
+li {
+    margin-left: 7%;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 90px;
+    float: right;
+    border: 2px, solid, black;
+}
