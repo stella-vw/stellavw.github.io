@@ -4,7 +4,7 @@ body {
   margin: auto;
   max-width: 600px;
   font-size: 14pt;
-  font-family: Garamond, serif ;
+  font-family: "Garamond", serif ;
 }
 
 nav {
@@ -42,4 +42,25 @@ a {
     display: flex;
     gap: 50px;
     justify-content: center;
+}
+
+.chinese {
+    font-family: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+h4 { /* for projects page  */
+    margin-bottom: 5pt; 
+}
+
+.project-button {
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 5pt;
+    background-color: #C69FEA;
+    font-size: 14pt;
+    font-family: "Garamond", serif;
+}
+
+.project-button:hover {
+    background-color: #9954D9;
 }
