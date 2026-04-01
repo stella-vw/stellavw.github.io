@@ -11,6 +11,7 @@ nav {
     display: flex;
     text-align: left;
     gap: 30pt;
+    text-decoration: underline;
 }
 
 nav ul {
@@ -26,4 +27,19 @@ li {
     width: 90px;
     float: right;
     border: 2px, solid, black;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.twocolumn-center {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
