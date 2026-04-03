@@ -64,3 +64,9 @@ h4 { /* for projects page  */
 .project-button:hover {
     background-color: #9954D9;
 }
+
+.winton {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
