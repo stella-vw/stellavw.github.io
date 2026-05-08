@@ -23,7 +23,7 @@ li {
 }
 
 .pfp {
-    border-radius: 50%;
+    border-radius: 5%;
     width: 90px;
     float: right;
     border: 2px, solid, black;
